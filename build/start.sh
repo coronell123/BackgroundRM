@@ -5,27 +5,27 @@
 # Use this layer to add nodes and models
 
 CHECKPOINT_MODELS=(
-    "https://huggingface.co/nanxiz/zcabnzh/resolve/main/basic_model.safetensors"
-    "https://huggingface.co/nanxiz/zcabnzh/resolve/main/vivid_model.safetensors"
+    #"https://huggingface.co/nanxiz/zcabnzh/resolve/main/basic_model.safetensors"
+    #"https://huggingface.co/nanxiz/zcabnzh/resolve/main/vivid_model.safetensors"
     #"https://huggingface.co/nanxiz/zcabnzh/resolve/main/sdxlUnstableDiffusers_unyieldingGrimoire.safetensors"
     #"https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0.safetensors"
 )
 
 LORA_MODELS=(
-    "https://huggingface.co/nanxiz/zcabnzh/resolve/main/View360.safetensors"
-    "https://huggingface.co/nanxiz/zcabnzh/resolve/main/MJ52.safetensors"
+    #"https://huggingface.co/nanxiz/zcabnzh/resolve/main/View360.safetensors"
+    #"https://huggingface.co/nanxiz/zcabnzh/resolve/main/MJ52.safetensors"
 )
 
 VAE_MODELS=(
-    "https://huggingface.co/nanxiz/zcabnzh/resolve/main/sdxl_vae.safetensors"
+    #"https://huggingface.co/nanxiz/zcabnzh/resolve/main/sdxl_vae.safetensors"
     #"https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.safetensors"
     #"https://huggingface.co/stabilityai/sdxl-vae/resolve/main/sdxl_vae.safetensors"
 )
 
 ESRGAN_MODELS=(
     #"https://huggingface.co/ai-forever/Real-ESRGAN/resolve/main/RealESRGAN_x4.pth"
-    "https://huggingface.co/FacehugmanIII/4x_foolhardy_Remacri/resolve/main/4x_foolhardy_Remacri.pth"
-    "https://huggingface.co/Akumetsu971/SD_Anime_Futuristic_Armor/resolve/main/4x_NMKD-Siax_200k.pth"
+    #"https://huggingface.co/FacehugmanIII/4x_foolhardy_Remacri/resolve/main/4x_foolhardy_Remacri.pth"
+    #"https://huggingface.co/Akumetsu971/SD_Anime_Futuristic_Armor/resolve/main/4x_NMKD-Siax_200k.pth"
 )
 
 CONTROLNET_MODELS=(
@@ -49,11 +49,11 @@ CONTROLNET_MODELS=(
 )
 
 CUSTOM_NODE_LLLITE_MODELS=(
-    "https://huggingface.co/nanxiz/zcabnzh/resolve/main/controlnetxlCNXL_bdsqlszMlsdV2.safetensors"
+    #"https://huggingface.co/nanxiz/zcabnzh/resolve/main/controlnetxlCNXL_bdsqlszMlsdV2.safetensors"
 )
 
 CUSTOM_NODE_ANIMATEDIFF_MODELS=(
-    "https://huggingface.co/nanxiz/zcabnzh/resolve/main/v3_sd15_mm.ckpt"
+    #"https://huggingface.co/nanxiz/zcabnzh/resolve/main/v3_sd15_mm.ckpt"
 )
 
 ### DO NOT EDIT BELOW HERE UNLESS YOU KNOW WHAT YOU ARE DOING ###
