@@ -28,4 +28,9 @@ COPY --chown=0:1111 ./COPY_ROOT_EXTRA/ /
 RUN set -eo pipefail && /opt/ai-dock/bin/build/layer1/init.sh | tee -a /var/log/build.log
 
 # Keep init.sh as-is and place additional logic in /opt/ai-dock/bin/preflight.sh
-CMD ["init.sh"]
+COPY start.sh /start.sh
+RUN chmod +x /start.sh
+
+# Keep init.sh as-is and place additional logic in /opt/ai-dock/bin/preflight.sh
+#CMD ["init.sh"]
+CMD ["start.sh"]
